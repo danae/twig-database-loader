@@ -1,0 +1,23 @@
+{
+  "name": "dengsn/twig-database-loader",
+  "description": "Twig loader for PDO databases",
+  "authors": [
+    {
+      "name": "dengsn",
+      "email": "info@dengsn.com"
+    }
+  ],
+  "license": "GPL-3.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.2",
+    "twig/twig": "^2.0",
+    "dengsn/database-wrapper": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwigDatabaseLoader\\": "src/"
+    }
+  }
+}
